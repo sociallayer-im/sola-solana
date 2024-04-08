@@ -1,0 +1,59 @@
+.address-list
+  display: flex
+  flex-flow: column wrap
+  .address-delete
+    cursor: pointer
+    padding: 7px
+  .list-item.deleted-only
+    cursor: auto
+  .list-item
+    display: flex
+    padding: 12px 20px
+    box-shadow: 0 1.9878px 11.9268px rgba(0, 0, 0, 0.12)
+    border-radius: 8px
+    margin-bottom: 10px
+    text-decoration: none
+    justify-content: space-between
+    align-items: center
+    cursor: pointer
+    background: #fff
+
+  .you-tag
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 20px
+    background: var(--primary-color-brand-11, #EFFFF9)
+    color: var(--primary-color-brand-14, #6CD7B2)
+    font-size: 12px
+    padding: 0 8px
+    margin-left: 12px
+    height: 20px
+  .left
+    display: flex
+    flex-flow: row nowrap
+    font-size: 14px
+    color: #272928
+    align-items: center
+    position: relative
+    .name
+      max-width: 180px
+      white-space: nowrap
+      text-overflow: ellipsis
+      overflow: hidden
+    img.owner-marker
+      width: 17px
+      height: 17px
+      left: 14px
+      top: 14px
+      position: absolute
+    img
+      width: 28px
+      height: 28px
+      border-radius: 50%
+      margin-right: 8px
+    .role
+      margin-left: 10px
+      color: #C3C7C3
+  .icon-selected
+    font-size: 18px

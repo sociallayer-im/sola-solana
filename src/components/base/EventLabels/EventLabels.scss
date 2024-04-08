@@ -1,0 +1,73 @@
+.event-label-list {
+  display: flex;
+  flex-flow: row wrap;
+
+  &.disabled {
+    pointer-events: none;
+  }
+
+  &.nowrap {
+    flex-flow: row nowrap;
+    overflow: auto;
+  }
+
+  .event-label-item {
+    border-radius: 8px;
+    border: 1px solid var(--color-item-border);
+    padding: 8px 12px;
+    color: var(--color-text-main);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    outline: none;
+
+    >i {
+      display: block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #c4c4c4;
+      margin-right: 4px;
+    }
+  }
+}
+
+.event-label-list.nowrap  {
+  flex-flow: row nowrap;
+  overflow: auto;
+  margin-left: 12px;
+
+  .event-label-item {
+    white-space: nowrap;
+  }
+}
+
+.maodao-goto-group-home {
+  text-align: center;
+  margin-top: 60px;
+  color: var(--color-text-main);
+  font-size: 16px;
+
+  .link {
+    display: inline-flex;
+    padding: 8px 21px 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 37px;
+    background: #252525;
+    margin-top: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  .event-label-list::-webkit-scrollbar {
+    display: none;
+  }
+}

@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?gnlirr');
+  src:  url('fonts/icomoon.eot?gnlirr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?gnlirr') format('truetype'),
+    url('fonts/icomoon.woff?gnlirr') format('woff'),
+    url('fonts/icomoon.svg?gnlirr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon_share:before {
+  content: "\e900";
+}
+.icon-Union:before {
+  content: "\e901";
+}
+.icon-wallet:before {
+  content: "\e902";
+}
+.icon-oval:before {
+  content: "\e903";
+}
+.icon-copy:before {
+  content: "\e904";
+}
+.icon-close:before {
+  content: "\e905";
+}
+.icon-add:before {
+  content: "\e906";
+}
+.icon-minus:before {
+  content: "\e907";
+}
+.icon-more:before {
+  content: "\e908";
+}
+.icon-wechat:before {
+  content: "\e909";
+}
+.icon-whatsapp:before {
+  content: "\e90a";
+}
+.icon-search:before {
+  content: "\e90b";
+}
+.icon-qrcode:before {
+  content: "\e90c";
+}
+.icon-download:before {
+  content: "\e90d";
+}
+.icon-Polygon-2:before {
+  content: "\e90e";
+}
+.icon-uniE90F:before {
+  content: "\e90f";
+}
+.icon-address-list:before {
+  content: "\e910";
+  color: #7b7c7b;
+}
+.icon-selected:before {
+  content: "\e911";
+  color: #6cd7b2;
+}
+.icon-email:before {
+  content: "\e912";
+}
+.icon-hash:before {
+  content: "\e914";
+}
+.icon-link:before {
+  content: "\e913";
+}
+.icon-lock:before {
+   content: "\e915";
+   color: #fff;
+ }
+.icon-exchange:before {
+  content: "\e916";
+}
+.icon-clock:before {
+  content: "\e917";
+}
+.icon-profile:before {
+  content: "\e918";
+}
+.icon-user-plus:before {
+  content: "\e919";
+  color: #fff;
+}
+.icon-user-check:before {
+  content: "\e91a";
+}
+.icon-sendfasong:before {
+  content: "\e91b";
+}
+.icon-web:before {
+  content: "\e91c";
+  color: #515151;
+}
+.icon-tg:before {
+  content: "\e91d";
+}
+.icon-twitter:before {
+  content: "\e91e";
+}
+.icon-github:before {
+  content: "\e91f";
+}
+.icon-setting:before {
+  content: "\e921";
+}
+.icon-Outline:before {
+  content: "\e920";
+}
+.icon-discord:before {
+  content: "\e922";
+}
+.icon-ens:before {
+  content: "\e923";
+}
+.icon-web2:before {
+  content: "\e924";
+}
+.icon-lens:before {
+  content: "\e925";
+}
+.icon-calendar:before {
+  content: "\e926";
+}
+.icon-edit:before {
+  content: "\e927";
+}
+.icon-location:before {
+  content: "\e928";
+}
+.icon-date:before {
+  content: "\e929";
+}
+.icon-menu:before {
+  content: "\e92a";
+}
+
+
+

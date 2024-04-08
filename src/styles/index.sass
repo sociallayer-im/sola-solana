@@ -1,0 +1,332 @@
+@import '@/styles/poppins.css'
+@import '@/styles/iconfont/style.css'
+@import "@/styles/farcasterLoginBtn.css"
+
+@import "@/components/base/AddressList/AddressList.sass"
+@import "@/components/base/AmountInput/AmountInput.sass"
+@import "@/components/base/AppDateInput/AppDateInput.sass"
+@import "@/components/base/AppSlider/AppSlider.sass"
+@import "@/components/base/AppTextArea/AppTextArea.sass"
+@import "@/components/base/AppTips/AppTips.sass"
+@import "@/components/base/AppVoteOptionsInput/AppVoteOptionsInput.sass"
+@import "@/components/base/BgProfile/BgProfile.sass"
+@import "@/components/base/BtnGroup/BtnGroup.sass"
+@import "@/components/base/Cards/CardVote/CardVote.sass"
+@import "@/components/base/CheckInRecords/CheckInRecords.sass"
+@import "@/components/base/Dialog/DialogAddManager/DialogAddManager.sass"
+@import "@/components/base/Dialog/DialogAddressList/DialogAddressList.sass"
+@import "@/components/base/Dialog/DialogBurn/DialogBurn.sass"
+@import "@/components/base/Dialog/DialogConfirm/DialogConfirm.sass"
+@import "@/components/base/Dialog/DialogConfirmDomain/DialogConfirmDomain.sass"
+@import "@/components/base/Dialog/DialogConnectWallet/DialogConnectWallet.sass"
+@import "@/components/base/Dialog/DialogCopy/DialogCopy.sass"
+@import "@/components/base/Dialog/DialogCropper/DialogCropper.sass"
+@import "@/components/base/Dialog/DialogFollowInfo/DialogFollowInfo.sass"
+@import "@/components/base/Dialog/DialogGiftCheckIn/DialogGiftCheckIn.sass"
+@import "@/components/base/Dialog/DialogGroupManagerEdit/DialogGroupManagerEdit.sass"
+@import "@/components/base/Dialog/DialogGroupSetting/DialogGroupSetting.sass"
+@import "@/components/base/Dialog/DialogIssuePrefill/DialogIssuePrefill.sass"
+@import "@/components/base/Dialog/DialogManageMember/DialogManageMember.sass"
+@import "@/components/base/Dialog/DialogNftCheckIn/DialogNftCheckIn.sass"
+@import "@/components/base/Dialog/DialogProfileQRcode/DialogProfileQRcode.sass"
+@import "@/components/base/Dialog/DialogPublicImage/DialogPublicImage.sass"
+@import "@/components/base/Dialog/DialogTransferAccept/DialogTransferAccept.sass"
+@import "@/components/base/Dialog/dialog.sass"
+@import "@/components/base/GenFaceToFace/GenFaceToFace.sass"
+@import "@/components/base/GroupPanel/GroupPanel.sass"
+@import "@/components/base/HeaderSearch/HeaderSearch.sass"
+@import "@/components/base/HorizontalList/HorizontalList.sass"
+@import "@/components/base/IssuesInput/IssuesInpu.scss"
+@import "@/components/base/ListTitle/ListTitle.sass"
+@import "@/components/base/ListUserAssets/ListUserAssets.sass"
+@import "@/components/base/ProfileBio/ProfileBio.sass"
+@import "@/components/base/ProfilePanel/ProfilePanel.sass"
+@import "@/components/base/ProfileSocialMediaList/ProfileSocialMediaList.sass"
+@import "@/components/base/ReasonInput/ReasonInput.sass"
+@import "@/components/base/ReasonText/ReasonText.sass"
+@import "@/components/base/ScanQrcode/ScanQrcode.sass"
+@import "@/components/base/SwiperPagination/SwiperPagination.sass"
+
+@import "@/components/compose/Detail/atoms/DetailCreator/DetailCreator.sass"
+@import "@/components/compose/Detail/atoms/DetailDes/DetailDes.sass"
+@import "@/components/compose/Detail/atoms/DetailScrollBox/DetailScrollBox.sass"
+@import "@/components/compose/Detail/atoms/DetailTransferable/DetailTransferable.sass"
+@import "@/components/compose/Detail/atoms/DetailWrapper/DetailWrapper.sass"
+@import "@/components/compose/Detail/DetailBadge/DetailBadge.sass"
+@import "@/components/compose/Detail/DetailGift/DetailGift.sass"
+@import "@/components/compose/Detail/DetailGiftItem/DetailGiftItem.sass"
+@import "@/components/compose/Detail/DetailNftpass/DetailNftpass.sass"
+@import "@/components/compose/EditSocialMedia/EditSocialMedia.sass"
+@import "@/components/compose/FormProfileEdit/FormProfileEdit.sass"
+@import "@/components/compose/FormRegist/RegistForm.sass"
+@import "@/components/compose/FormRegistGroup/FormRegistGroup.sass"
+@import "@/components/compose/HomePageSwitcher/HomePageSwitcher.scss"
+@import "@/components/compose/IssueTypeSelectorBadge/IssueTypeSelectorBadge.sass"
+@import "@/components/compose/IssueTypeSelectorGift/IssueTypeSelectorGift.sass"
+@import "@/components/compose/IssueTypeSelectorNftPass/IssueTypeSelectorNftPass.sass"
+@import "@/components/compose/IssueTypeSelectorPoint/IssueTypeSelectorPoint.sass"
+@import "@/components/compose/Lens/LensItem/LensItem.sass"
+@import "@/components/compose/Lens/LensList/LensList.sass"
+@import "@/components/compose/ListGroupMember/ListGroupMember.sass"
+@import "@/components/compose/ListUserBadgelet/ListUserBadgelet.sass"
+@import "@/components/compose/ListUserCreated/ListUserCreated.sass"
+@import "@/components/compose/ListUserGift/ListUserGift.sass"
+@import "@/components/compose/ListUserGroup/ListUserGroup.sass"
+@import "@/components/compose/ListUserNftpass/ListUserNftpass.sass"
+@import "@/components/compose/ListUserPoint/ListUserPoint.sass"
+@import "@/components/compose/ListUserRecognition/ListUserRecognition.sass"
+@import "@/components/compose/ListUserVote/ListUserVote.sass"
+@import "@/components/compose/PageHeader/PageHeader.sass"
+@import "@/components/compose/PresendQrcode/PresendQrcode.sass"
+@import "@/components/compose/SelectPointCover/SelectPointCover.sass"
+@import "@/components/compose/SendSuccessCard/SendSuccessCard.sass"
+@import "@/components/compose/ShareQrcode/ShareQrcode.sass"
+
+@import "@/pages/index.scss"
+@import "@/pages/profile/[username]/Profile.scss"
+@import "@/pages/profile-edit/[username]/ProfileEdit.scss"
+@import "@/pages/group/[groupname]/Group.scss"
+@import "@/pages/group-edit/[groupname]/GroupEdit.scss"
+@import "@/pages/login/Login.scss"
+@import "@/pages/regist/Regist.scss"
+@import "@/pages/bind-email/BindEmail.scss"
+@import "@/pages/create-group/RegistGroup.scss"
+@import "@/pages/create-badge/CreateBadge.scss"
+@import "@/pages/issue-badge/[badgeId]/IssueBadge.scss"
+@import "@/pages/issue-success/IssueBadgeSuccess.scss"
+@import "@/pages/create-point/CreatePoint.scss"
+@import "@/pages/issue-point/[pointId]/IssuePoint.scss"
+@import "@/pages/create-nftpass/CreateNftPass.scss"
+@import "@/pages/issue-nftpass/[nftpassId]/IssueNftPass.scss"
+@import "@/pages/create-invite/[groupId]/Invite.scss"
+@import "@/pages/create-private/CreatePrivacy.scss"
+@import "@/pages/create-gift/CreateGift.scss"
+@import "@/pages/issue-gift/[giftId]/IssueGift.scss"
+@import "@/pages/search/[keyword]/Search.scss"
+@import "@/pages/hashtag/[tag]/Hashtag.scss"
+@import "@/pages/create-vote/CreateVote.scss"
+@import "@/pages/vote/[voteid]/VoteDetail.scss"
+@import "@/pages/Error.scss"
+
+@import "@/pages/event/[groupname]/Home.scss"
+@import "@/components/base/HomeUserPanel/HomeUserPanel.scss"
+@import "@/components/compose/ListMyAttentedEvent/ListMyAttentedEvent.scss"
+@import "@/components/base/Cards/CardEvent/CardEvent.scss"
+@import "@/components/compose/ListRecommendedEvent/ListRecommendedEvent.scss"
+@import "@/components/compose/ListMyCreatedEvent/ListMyCreatedEvent.scss"
+@import "@/components/compose/ListEventVertical/ListEventVertical.scss"
+@import "@/components/base/EventLabels/EventLabels.scss"
+@import "@/pages/event/detail/[eventid]/EventDetail.scss"
+@import "@/components/compose/ListCheckLog/ListCheckLog.scss"
+@import "@/components/compose/ListCheckinUser/ListCheckinUser.scss"
+@import "@/hooks/showImage/showImage.scss"
+@import "@/pages/event/checkin/[eventid]/EventCheckin.scss"
+@import "@/pages/event/success/[eventid]/CreateEventSuccess.scss"
+@import "@/pages/event/merge/Merge.scss"
+@import "@/components/compose/DivineBeast/DivineBeast.scss"
+@import "@/components/compose/DivineBeast/svg/Beast.scss"
+@import "@/pages/event/setting/[groupname]/Dashboard.scss"
+@import "@/components/compose/SiteEventInput/EventSiteInput.scss"
+@import "@/components/base/DashboardInfo/DashboardInfo.scss"
+@import "@/components/compose/LocationInput/LocationInput.scss"
+@import "@/components/base/Dialog/DialogEventCheckIn/DialogEventCheckIn.scss"
+@import "@/pages/event/[groupname]/create/CreateEvent.scss"
+@import "@/components/compose/UploadWecatQrcode/UploadWecatQrcode.scss"
+@import "@/components/base/AppFlexTextArea/AppFlexTextArea.scss"
+@import "@/components/base/AppEventTimeInput/AppEventTimeInput.scss"
+@import "@/pages/event/[groupname]/calendar/CalendarNew.scss"
+@import "@/components/compose/EventCalendar/EventCalendar.scss"
+@import "@/components/eventSpecial/ReasonText/ReasonText.scss"
+@import "@/components/compose/ListSearchResultEvent/ListSearchResultEvent.sass"
+@import "@/pages/event/detail-marker/[markerid]/MarkerDetail.scss"
+@import "@/pages/wamo/combine/Combine.scss"
+
+
+$width-page-max: 620px
+$width-page-edge: 20px
+$height-nav: 48px
+
+body
+  font-family: 'Poppins', 'Noto Sans SC', sans-serif
+  margin: 0
+  padding: 0
+  font-size: 12px
+  -webkit-overflow-scrolling: touch
+  -webkit-text-size-adjust: none
+  color: var(--color-text-main, #272928)
+  box-sizing: border-box
+  background: #f8f8f8
+  --width-page-max: 620px
+  --width-page-edge: 20px
+  --height-nav: 48px
+
+.light
+  --color-theme: #9efedd
+  --color-page-bg: #f8f8f8
+  --color-page-bg-1: #fff
+  --color-text-main: #272928
+  --color-text-sub: #7B7C7B
+  --color-card-bg: #fff
+  --color-input-bg: #F8F8F8
+  --color-scroll-thumb: #dedede
+  --color-box-border: #eee
+  --color-item-border: #EDEDED
+  --color-subtab-active: rgba(0,0,0,0)
+  --color-shell: rgba(255, 255, 255, 0.5)
+  --color-event-header-bg: #ECF2EE
+  --color-btn-bg-1: #F5F8F6
+  --color-card-image-bg: linear-gradient(180deg, rgba(247, 247, 247, 0.82) 0%, #EBF2F1 100%)
+  background: var(--color-page-bg)
+
+.dark
+  --color-theme: #9efedd
+  --color-page-bg: #141414
+  --color-page-bg-1: #0D0D0D
+  --color-text-main: #eee
+  --color-text-sub: #7B7C7B
+  --color-card-bg: #252525
+  --color-input-bg: #252525
+  --color-scroll-thumb: #464646
+  --color-box-border: #1E1E1E
+  --color-item-border: #1F1F1F
+  --color-subtab-active: #DAD6D7
+  --color-shell: rgba(0, 0, 0, 0.3)
+  --color-event-header-bg: #272928
+  --color-btn-bg-1: #252525
+  --color-card-image-bg: linear-gradient(180deg, rgba(50, 50, 50, 0.82) 0%, #171717 100%)
+  background: var(--color-page-bg)
+
+@media (min-width: 450px)
+  body
+    background: #fff
+
+@keyframes Spinner
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
+
+::-webkit-scrollbar
+  width: 6px
+  height: 6px
+
+::-webkit-scrollbar-track
+  background: var(--color-card-bg)
+
+::-webkit-scrollbar-thumb
+  border-radius: 8px
+  background: var(--color-scroll-thumb)
+
+@media (max-width: 360px)
+  *::-webkit-scrollbar
+    width: 6px
+    height: 0
+
+
+div[data-baseweb="tooltip"], div[data-baseweb="popover"]
+  z-index: 9999
+  max-width: 100%
+
+div[data-baseweb="popover"]
+  max-width: 100%
+  height: auto
+
+div[data-baseweb="popover"]
+  height: auto
+  > div
+    > div
+      width: auto
+
+.swiper-pagination-bullet-active
+  background: #9efedd!important
+
+.highlight
+  color: #6cd7b2
+
+.page-bottom-marker
+  width: 100%
+  height: 5px
+
+.maodao-logo
+  display: flex
+  flex-flow: row nowrap
+  align-items: center
+  margin-right: 12px
+  svg
+    margin-right: 10px
+
+
+div[data-baseweb="select"]
+  svg[title="open"]
+    fill: var(--color-text-main)
+
+
+div.gmnoprint[role="menubar"]
+  top: 55px!important
+  transform: scale(0.8) translateX(-10%)!important
+
+button.gm-control-active.gm-fullscreen-control
+  top: 55px!important
+  transform: scale(0.8) translateX(10%)!important
+
+div.gmnoprint.gm-bundled-control.gm-bundled-control-on-bottom
+  top: 110px!important
+
+div.gmnoprint.gm-bundled-control.gm-bundled-control-on-bottom > *
+  transform: scale(0.8) translateX(10%)!important
+
+.map-page
+  .event-card
+    width: auto
+
+.swiper-free-mode>.swiper-wrapper
+  transition-timing-function: ease-out
+  margin: 0 auto
+
+.wamo-tags
+  .event-label-item
+    border-color: #C1CDFF!important
+    background: #C1CDFF
+
+.hide-item
+  display: none
+
+.default-post
+    width: 452px
+    max-width: 452px
+    height: 452px
+    background: url("/images/default_event_cover.jpg")
+    background-size: cover
+    position: relative
+
+    .title
+      color: var(--Text-4-Headline, #272928)
+      font-size: 27px
+      font-style: normal
+      font-weight: 600
+      max-height: 80px
+      width: 312px
+      position: absolute
+      left: 76px
+      top: 78px
+      overflow: hidden
+
+
+    .time
+      position: absolute
+      color: var(--Text-4-Headline, #272928)
+      font-size: 18px
+      font-weight: bold
+      left: 76px
+      top: 178px
+
+
+    .location
+      position: absolute
+      color: var(--Text-4-Headline, #272928)
+      font-size: 18px
+      font-weight: bold
+      left: 76px
+      top: 240px
+
+

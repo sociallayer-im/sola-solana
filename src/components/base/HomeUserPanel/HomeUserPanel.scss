@@ -1,0 +1,235 @@
+.home-user-panel {
+  padding-bottom: 20px;
+
+  .group-card-member-list {
+    display: none;
+  }
+
+  .group-card {
+    padding: 16px 0 0 0;
+
+    .center {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 8px;
+      background: var(--color-card-bg);
+      padding: 12px;
+      text-decoration: none;
+    }
+
+    .left {
+      align-items: center;
+      display: flex;
+      flex-flow: row nowrap;
+      text-decoration: none;
+      color: var(--color-text-main);
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .avatar {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      margin-right: 4px;
+    }
+
+    .right {
+      text-decoration: none;
+      color: var(--color-text-main);
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+    }
+
+    .group-badge {
+      display: flex;
+      justify-content: space-between;
+      text-decoration: none;
+      padding: 0 12px;
+      margin-bottom: 12px;
+
+      img {
+        border-radius: 50%;
+        margin-right: 8px;
+      }
+    }
+
+    @media (max-width: 650px) {
+     .group-badge {
+        display: none;
+      }
+
+      .side-member-count {
+        display: none;
+      }
+    }
+  }
+
+  .beast-banner {
+    margin: 9px auto;
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-decoration: none !important;
+
+    img {
+      width: 100%;
+      min-height: 120px;
+    }
+  }
+
+  .center {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 20px;
+  }
+
+  .calendar-btn {
+    border-radius: 7px;
+    background: var(--secondary-color-brand-51-light, #EEF2FE);
+    height: 42px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    color: var(--secondary-color-brand-53-normal, #7492EF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    svg {
+      margin-right: 8px;
+    }
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+.home-login-panel {
+  border-radius: 20px;
+  border: 1px dashed var(--color-item-border);
+  background: var(--color-page-bg-1);
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 20px;
+
+  img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .text {
+    color: var(--color-text-main);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 20px 0;
+  }
+}
+
+.home-user-panel.side {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+
+  > .center {
+    width: 100%;
+    order: 4;
+    margin-top: 20px;
+  }
+
+  .beast-banner {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    order: 2;
+  }
+
+  .group-card {
+    .center {
+      padding: 8px 12px;
+      margin-bottom: 12px;
+    }
+  }
+
+  .group-card-member-list {
+    display: flex;
+    flex-flow: row nowrap;
+    text-decoration: none;
+    padding: 8px 12px;
+    align-items: center;
+    color: var(--color-text-main);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+    .name {
+      max-width: 50%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    &:hover {
+      background: #f1f1f1;
+    }
+
+    .role {
+      display: inline-flex;
+      height: 22px;
+      padding: 4px 6px;
+      justify-content: center;
+      border-radius: 8px;
+      background: var(--Fill-3-Dark, #ECF2EE);
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      align-items: center;
+      margin-left: 8px;
+      box-sizing: border-box;
+      color: #4F5150;
+    }
+
+    img {
+      width: 32px;
+      height: 32px;
+      margin-right: 8px;
+    }
+  }
+
+  .home-action-bar {
+    margin-bottom: 20px;
+    bottom: 0;
+    order: 2;
+    display: flex;
+    align-items: center;
+
+    & .setting-btn {
+      margin-left: 12px;
+    }
+  }
+
+  .calendar-btn {
+    order: 1;
+    margin: 5px 0 10px;
+  }
+}
